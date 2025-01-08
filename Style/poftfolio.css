@@ -95,3 +95,48 @@ nav li a{
   cursor: pointer;
   margin-left: 10px;
 }
+
+
+/* About Design */ 
+main{
+  max-width: 1140px;
+  height: 288px;
+  margin: 130px auto;
+}
+.about-section{
+  padding: 5px;
+  background: #FFF8F3;
+  border-radius: 5px;
+}
+.name-address-details{
+  display: flex;
+  gap: 30px;
+  justify-content: space-around;
+}
+
+.about-description{
+  text-align: center;
+  margin: 100px 100px;
+  padding: 20px;
+  align-items: center;
+}
+
+.about-description h2{
+  margin-bottom: 20px;
+  font-size: 35px;
+  color: #181818;
+}
+
+.description-para{
+  margin-bottom: 20px;
+  color: #757575;
+  font-size: 18px;
+}
+.name-bold{
+  font-weight: bold;
+}
+
+.bottom-title-color{
+  font-size: 18px;
+  color: #757575;
+}
