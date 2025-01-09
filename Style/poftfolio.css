@@ -103,40 +103,34 @@ main{
   height: 288px;
   margin: 130px auto;
 }
-.about-section{
-  padding: 5px;
+
+
+.about-parent{
+  max-width: 1140px;
   background: #FFF8F3;
-  border-radius: 5px;
+  text-align: center;
+  padding: 130px 150px;
+  border-radius: 10px;
 }
-.name-address-details{
+
+.about-title{
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+.about-description{
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.name-email-birth{
   display: flex;
-  gap: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  gap: 25px;
   justify-content: space-around;
 }
 
-.about-description{
-  text-align: center;
-  margin: 100px 100px;
-  padding: 20px;
-  align-items: center;
-}
-
-.about-description h2{
-  margin-bottom: 20px;
-  font-size: 35px;
-  color: #181818;
-}
-
-.description-para{
-  margin-bottom: 20px;
-  color: #757575;
-  font-size: 18px;
-}
-.name-bold{
-  font-weight: bold;
-}
-
-.bottom-title-color{
-  font-size: 18px;
-  color: #757575;
+.name-email-birth-child{
+  font-weight: normal;
 }
