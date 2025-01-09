@@ -96,6 +96,10 @@ nav li a{
   margin-left: 10px;
 }
 
+.body-normal-fonts{
+  font-size: 18px;
+  color: #757575;
+}
 
 /* About Design */ 
 main{
@@ -126,11 +130,45 @@ main{
 .name-email-birth{
   display: flex;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 500;
   gap: 25px;
   justify-content: space-around;
 }
 
 .name-email-birth-child{
   font-weight: normal;
+}
+
+/* What I do Section */
+.what-i-do-first{
+  padding: 50px 110px;
+  width: 0 auto;
+  text-align: center;
+}
+.what-i-do-first h3{
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.what-i-do-first p{
+  font-size: 18px;
+}
+
+.skills-container{
+  display: flex;
+  gap: 20px;
+}
+
+.skills{
+  padding: 20px 30px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px #00000020;
+}
+
+.skills img, h4{
+  margin-bottom: 20px;
+}
+
+.body-normal-font{
+  font-size: 16px;
+  color: #757575;
 }
